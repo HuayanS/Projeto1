@@ -62,6 +62,13 @@ main{
 	text-decoration: none;
 	font-size: 20px;
 	text-transform: uppercase;
+
+}
+
+.menu ul li a:hover {
+	color: gray;
+	border-bottom: 2px solid gray;
+
 }
 .coluna-100{
 	width: 100%;
