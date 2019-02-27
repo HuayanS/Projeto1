@@ -85,7 +85,7 @@ button.slick-prev {
 	z-index: 9;
 	top: 42%;
 	background-image: url('../img/esquerda.png');
-	left: 7%;
+	left: 8%;
 }
 button.slick-next{
 	font-size: 0px;
@@ -97,5 +97,5 @@ button.slick-next{
 	z-index: 9;
 	top: 42%;
 	background-image: url('../img/direita.png');
-	right: 7%;
+	right: 8%;
 }
