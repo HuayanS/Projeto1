@@ -6,7 +6,7 @@ body {
 	margin: 0 auto;
 }
 ul {
-	podding: 0px!important;
+	padding: 0px!important;
 }
 .menu-principal{
 	width: 100%;
@@ -85,7 +85,8 @@ button.slick-prev {
 	z-index: 9;
 	top: 42%;
 	background-image: url('../img/esquerda.png');
-	left: 8%;
+	left: 7%;
+	cursor: pointer;
 }
 button.slick-next{
 	font-size: 0px;
@@ -97,5 +98,33 @@ button.slick-next{
 	z-index: 9;
 	top: 42%;
 	background-image: url('../img/direita.png');
-	right: 8%;
+	right: 7%;
+	cursor: pointer;
+}
+.slick-initialized {
+	overflow: hidden;
+}
+.slick-dots{
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	left: 43%;
+	top: 600px;
+}
+.slick-dots li button {
+	font-size: 0px;
+	border: solid 5px whitesmoke;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: transparent;
+
+}
+.slick-dots li{
+	display: inline-block;
+	padding: 5px;
+}
+li.slick-active button{
+	background: #515151;
 }

@@ -3,5 +3,7 @@ $('.slider-pricipal').slick({
     infinite: true,
     speed: 300,
     slideToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000
 });
